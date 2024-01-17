@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Générateur de graphique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mon générateur de graphiques</h1>
+    </header>
+    <main class="main__content">
+      <section class="container">
+        <div class="chart__container">
+          <div id="canvas__container"></div>
+        </div>
+
+        <div class="controls">
+          <select id="chart__type" class="select">
+            <option value="bar">Graphique en bâtons</option>
+            <option value="line">graphique en lignes</option>
+            <option value="pie">Graphique circulaire</option>
+            <option value="doughnut">Graphique en beignets</option>
+            <option value="radar">Graphique radar</option>
+          </select>
+          <input
+            type="text"
+            id="label__input"
+            class="input"
+            placeholder="Label"
+          />
+          <input
+            type="number"
+            id="data__input"
+            class="input"
+            placeholder="Données"
+          />
+        </div>
+        <div class="buttons">
+          <button class="btn" id="add__data__btn">Ajouter les données</button>
+          <button class="btn" id="modify__chart__btn">
+            Changer la forme du graphique
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>Site créé par aperbet56</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
