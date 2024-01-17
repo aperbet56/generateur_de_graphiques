@@ -2,7 +2,7 @@
 
 ## Le challenge
 
-Mon objectif a été de créér un générateur de graphique permettant de représenter des données sous forme de graphiques dynamiques. L'internaute va pouvoir choisir parmi différents types de graphiques:
+Mon objectif a été de créér un générateur de graphique permettant de représenter des données sous forme de graphiques dynamiques. L'internaute va pouvoir choisir parmi différents types de graphiques :
 
 - graphiques en bâtons
 - graphiques linéaires
@@ -12,7 +12,7 @@ Mon objectif a été de créér un générateur de graphique permettant de repr�
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/generateur_de_graphiques/
 
 ## Développez avec
 
