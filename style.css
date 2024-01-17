@@ -108,3 +108,20 @@ footer span {
     font-size: 18px;
     font-weight: 500;
 }
+
+/**** Responsive design ****/ 
+
+@media screen and (max-width: 472px) {
+    .container {
+        padding: 12px;
+    }
+
+    .controls {
+        margin-top: 0;
+    }
+
+    .select, .input, .btn{
+        width: 100%;
+        margin-right: 0;
+    }
+}
