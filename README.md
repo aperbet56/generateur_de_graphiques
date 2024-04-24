@@ -17,7 +17,7 @@ Lien vers le projet : https://aperbet56.github.io/generateur_de_graphiques/
 ## Développez avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Flexbox
 - Animations CSS au survol
 - Page web responsive
